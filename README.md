@@ -2,7 +2,7 @@
 Java support for DBpedia via Manifold
 
 # Description
-Core `manifold-dbpedia` provides a type manifold for the [DBpedia](http://wiki.dbpedia.org/) ontology via the [dbpedia.org/sparql](dbpedia.org/sparql) 
+Core `manifold-dbpedia` provides a [type manifold](https://manifold.systems/docs.html#type_manifolds) for the [DBpedia](http://wiki.dbpedia.org/) ontology via the [dbpedia.org/sparql](dbpedia.org/sparql) 
 service.  With it you can reference DBpeidia ontology classes like this:
 ```java
 org.dbpedia.ontology.Person person = null;
