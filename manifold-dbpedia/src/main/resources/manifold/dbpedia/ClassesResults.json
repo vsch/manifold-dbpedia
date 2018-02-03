@@ -1,0 +1,20 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "x"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "x": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Company"
+        }
+      }
+    ]
+  }
+}

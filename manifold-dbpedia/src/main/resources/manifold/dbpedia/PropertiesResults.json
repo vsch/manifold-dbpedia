@@ -1,0 +1,35 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "property",
+      "range"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "property": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/deathPlace"
+        },
+        "range": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/Place"
+        }
+      },
+      {
+        "property": {
+          "type": "uri",
+          "value": "http://dbpedia.org/ontology/deathDate"
+        },
+        "range": {
+          "type": "uri",
+          "value": "http://www.w3.org/2001/XMLSchema#date"
+        }
+      }
+    ]
+  }
+}
