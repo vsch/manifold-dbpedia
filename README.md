@@ -19,8 +19,8 @@ interfaces available from the core module.  This is primarily for performance as
  component.
  
  The `manifold-dbpedia-sparql` module (TBD) provides a type manifold for [sparql](https://en.wikipedia.org/wiki/SPARQL)
- query resource files.  The idea is to write a partial parser for the sparql, enough to determine
- the result set types in terms of the ontology intefaces from core `manifold-dbpedia` and schema 
+ query resource files.  The idea is to write a partial parser for sparql, enough to determine
+ the result set types in terms of the ontology interfaces from core `manifold-dbpedia` and schema 
  data types.
   
 # Contributing
