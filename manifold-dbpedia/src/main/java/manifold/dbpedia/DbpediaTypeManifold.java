@@ -44,7 +44,7 @@ public class DbpediaTypeManifold extends UrlTypeManifold
   }
 
   @Override
-  public String produce( String fqn, String existing, DiagnosticListener<JavaFileObject> errorHandler )
+  public String contribute( String fqn, String existing, DiagnosticListener<JavaFileObject> errorHandler )
   {
     return DbpediaClass.make( fqn );
   }

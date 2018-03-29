@@ -30,6 +30,7 @@
     <module>manifold-dbpedia</module>
     <module>manifold-dbpedia-test</module>
     <module>manifold-dbpedia-interfaces</module>
+    <module>manifold-dbpedia-query</module>
   </modules>
 
   <properties>

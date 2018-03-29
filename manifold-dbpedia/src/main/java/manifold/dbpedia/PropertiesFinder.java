@@ -98,6 +98,22 @@ public class PropertiesFinder
       //## todo: make a special class for langString where the string and the attribute are paired
       return "XMLSchema#string";
     }
+
+    // handle https://www.w3.org/2000/01/rdf-schema#...
+
+    if( url.toLowerCase().endsWith( "rdf-schema#comment" ) ||
+        url.toLowerCase().endsWith( "rdf-schema#label" ) )
+    {
+      return "XMLSchema#string";
+    }
+
+    //## todo: handle other datatypes from https://www.w3.org/2000/01/rdf-schema#
+
+    //## todo: handle meta stuff:
+    //## todo: rdfs:domain, :range, :subClassOf, etc. should map to java.lang.Class
+    
+
+    // whelp
     return null;
   }
 

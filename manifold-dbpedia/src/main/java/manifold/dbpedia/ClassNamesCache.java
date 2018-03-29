@@ -12,9 +12,6 @@ import manifold.util.JsonUtil;
 
 public class ClassNamesCache
 {
-  // For use with manifold-dbpedia-interfaces
-  public static final String ALL_CLASS = DbpediaTypeManifold.CLASSES_PKG + ".RefAll_";
-
   private static ClassNamesCache INSTANCE = null;
 
   // Sparql query:
@@ -71,9 +68,6 @@ public class ClassNamesCache
   private void buildCache( Bindings classes )
   {
     _fqnToUrl = new HashMap<>();
-
-    // For manifold-dbpedia-interfaces
-    _fqnToUrl.put( ALL_CLASS, "" );
 
     // DBpedia's root class
     _fqnToUrl.put( DbpediaTypeManifold.CLASSES_PKG + ".Thing", "http://dbpedia.org/ontology/Thing" );
